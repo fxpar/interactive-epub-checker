@@ -1,4 +1,4 @@
-# interactive-epub-checker
+# interactive epub checker
 Epub are great educative tools. Here is a file to test a good deal of interactions with user:
 * **creating quiz**: 
   * hiding or displaying answer
