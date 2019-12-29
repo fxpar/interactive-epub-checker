@@ -6,7 +6,7 @@ Epub to test the possibilities of your epub reader, especially for education pur
 ## Inline script
 
 ## footnotes
-![how footnotes appear in Lithium](screenshots/FootnoteLithium.png)
+![how footnotes appear in Lithium](screenshots/FootnoteLithium.png)![how footnotes appear in Lithium](screenshots/FootnoteCalibreViewer.png)
 ## In Head script
 ## External script
 ## Forms
