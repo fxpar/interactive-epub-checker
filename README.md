@@ -31,8 +31,19 @@ Epub are great educative tools. Here is a file to test a good deal of interactio
 ## querySelectorAll
 ## InsertRule
 ## character check
-## vertical japonese
+
+
 ## svg
+![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/svg.png)
 ## mathml
+![mathml in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/mathml.png)
 ## image map area
 ![ImageMapArea](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/imageArea.png)
+
+# Layout, Font and characters Features
+## vertical japanese
+![vertical japanese](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/verticalJapanese.png)
+## Ruby 
+![ruby](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/ruby.png)
+(for zhuyin Fuhao / bopomofo)
+
