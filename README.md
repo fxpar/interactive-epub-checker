@@ -30,6 +30,8 @@ Quizzes can be achieved through various coding design:
  * in Head link to Misc script.js
 ### Button and Style
 ![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz.png)
+### Fill the gap
+![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/multiQuiz.png)
 
 ## In Head script
 ## External script
