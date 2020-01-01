@@ -35,3 +35,4 @@ Epub are great educative tools. Here is a file to test a good deal of interactio
 ## svg
 ## mathml
 ## image map area
+![ImageMapArea](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/imageArea.png)
