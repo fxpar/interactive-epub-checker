@@ -40,8 +40,12 @@ Various coding strategies can be used and are tested in this epub
  * Jquery
  * querySelectorAll
  * InsertRule
+ 
+### Using javascript and css Styles
 ![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/lg.png)
 
+### Using title attribute
+![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/title.png)
 
 ## Click Image Zone
 ## image map area
