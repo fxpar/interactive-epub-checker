@@ -28,31 +28,36 @@ Quizzes can be achieved through various coding design:
  * inline script
  * in Head script
  * in Head link to Misc script.js
-### Button and Style
+### Forms: Button and Style
 ![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz.png)
-### Fill the gap
+### Forms: Fill the gap
 ![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/multiQuiz.png)
 
-## In Head script
-## External script
-## Forms
-## Jquery
-## enrichis
-## querySelectorAll
-## InsertRule
-## character check
+## Hide / Display
+Mainly used here to hide translations in multilingual ebooks, of for learning languages purposes.
 
+Various coding strategies can be used and are tested in this epub
+ * Jquery
+ * querySelectorAll
+ * InsertRule
 
-## svg
-![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/svg.png)
-## mathml
-![mathml in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/mathml.png)
+## Click Image Zone
 ## image map area
 ![ImageMapArea](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/imageArea.png)
 
+
 # Layout, Font and characters Features
+No fonts are included in this epub. This will allow to check which characters are correctly displayed.
+
+## svg
+![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/svg.png)
+
+## mathml
+![mathml in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/mathml.png)
+
 ## vertical japanese
 ![vertical japanese](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/verticalJapanese.png)
+
 ## Ruby 
 ![ruby](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/ruby.png)
 (for zhuyin Fuhao / bopomofo)
