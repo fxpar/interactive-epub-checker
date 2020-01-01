@@ -64,6 +64,7 @@ No fonts are included in this epub. This will allow to check which characters ar
 
 ## svg
 No library is included in the epub.
+
 ![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/svg.png)
 
 ## mathml
