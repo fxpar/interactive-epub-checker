@@ -50,9 +50,13 @@ Various coding strategies can be used and are tested in this epub
 No fonts are included in this epub. This will allow to check which characters are correctly displayed.
 
 ## svg
+No library is included in the epub.
 ![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/svg.png)
 
 ## mathml
+No library is included in this epub.
+For now, only the [Lea Reader](https://play.google.com/store/apps/details?id=com.adilibre.leareader) seems to display correctly mathml by default.
+
 ![mathml in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/mathml.png)
 
 ## vertical japanese
