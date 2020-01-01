@@ -12,10 +12,12 @@ Epub are great educative tools. Here is a file to test a good deal of interactio
   * hiding or displaying translation
   * notes, examples
 
-# Compatible readers
+# Compatible readers (or partially compatible)
  * Calibre viewer (windows) https://manual.calibre-ebook.com/viewer.html Free, included in calibre, available as portable
- * Study Comfort (android) https://play.google.com/store/apps/details?id=com.studycomfort.app Free, No Ads
  * Lithium (android) https://play.google.com/store/apps/details?id=com.faultexception.reader Free (pay ugrade available, for more themes), No ads.
+ * Study Comfort (android) https://play.google.com/store/apps/details?id=com.studycomfort.app Free, No Ads
+ 
+# Interactive Features
  
 ## Inline script
 
