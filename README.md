@@ -55,7 +55,9 @@ No library is included in the epub.
 
 ## mathml
 No library is included in this epub.
-For now, only the [Lea Reader](https://play.google.com/store/apps/details?id=com.adilibre.leareader) seems to display correctly mathml by default.
+### Compatible tools
+ * Calibre viewer (windows)
+ * [Lea Reader](https://play.google.com/store/apps/details?id=com.adilibre.leareader) (android)
 
 ![mathml in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/mathml.png)
 
