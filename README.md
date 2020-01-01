@@ -42,9 +42,13 @@ Various coding strategies can be used and are tested in this epub
  * InsertRule
  
 ### Using javascript and css Styles
+Click the button with language to see the text in this language appear / disappear.
+ 
 ![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/lg.png)
 
 ### Using title attribute
+ * on desktop: mouseover the lines to see translation
+ * on mobile / tablet: longpress on lines to see translation
 ![svg in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/title.png)
 
 ## Click Image Zone
