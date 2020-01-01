@@ -56,7 +56,7 @@ Click the button with language to see the text in this language appear / disappe
 
 ## Click Image Zone
 ## image map area
-![ImageMapArea](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/imageArea.png) ![ImageMapArea](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/imageArea2.png)
+![ImageMapArea](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/imageArea.png) ![ImageMapArea](screenshots/imageArea2.png)
 
 
 # Layout, Font and characters Features
