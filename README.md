@@ -21,7 +21,7 @@ Epub are great educative tools. Here is a [file](https://github.com/fxpar/intera
  
 
 ## footnotes
-![Footnote in Shakespear's Romeo and Juliet's prologue (in Calibre Viewer)](screenshots/footnoteEn1.png)
+![Footnote in Shakespear's Romeo and Juliet's prologue (in Calibre Viewer)](screenshots/footnoteEn1.png)![Footnote in Shakespear's Romeo and Juliet's prologue (in Calibre Viewer)](screenshots/footnoteEn2.png)
 ![how footnotes appear in Lithium](screenshots/FootnoteLithium.png)![how footnotes appear in Calibre Viewer](screenshots/FootnoteCalibreViewer.png)
 
 ## Quiz
