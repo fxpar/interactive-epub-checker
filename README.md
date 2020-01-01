@@ -21,6 +21,7 @@ Epub are great educative tools. Here is a [file](https://github.com/fxpar/intera
  
 
 ## footnotes
+![how footnotes appear in Calibre Viewer](screenshots/FootnoteEn1.png)
 ![how footnotes appear in Lithium](screenshots/FootnoteLithium.png)![how footnotes appear in Calibre Viewer](screenshots/FootnoteCalibreViewer.png)
 
 ## Quiz
