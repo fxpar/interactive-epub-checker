@@ -19,10 +19,17 @@ Epub are great educative tools. Here is a [file](https://github.com/fxpar/intera
  
 # Interactive Features
  
-## Inline script
 
 ## footnotes
 ![how footnotes appear in Lithium](screenshots/FootnoteLithium.png)![how footnotes appear in Calibre Viewer](screenshots/FootnoteCalibreViewer.png)
+
+## Quiz
+Quizzes can be achieved through various coding design:
+ * inline script
+ * in Head script
+ * in Head link to Misc script.js
+### Button and Style
+![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz1.png)![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz2.png)![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz3.png)
 ## In Head script
 ## External script
 ## Forms
