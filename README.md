@@ -29,7 +29,8 @@ Quizzes can be achieved through various coding design:
  * in Head script
  * in Head link to Misc script.js
 ### Button and Style
-![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz1.png)![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz2.png)![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz3.png)
+![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz.png)
+
 ## In Head script
 ## External script
 ## Forms
