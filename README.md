@@ -83,9 +83,9 @@ No library is included in this epub.
 (for zhuyin Fuhao / bopomofo)
 
 # Compatibility Matrix
- * kobo: aura HD
- * Kindle: PaperWhite
- * Sigil / PageEdit
+ * kobo: aura HD (software version not updated)
+ * Kindle: PaperWhite (not updated for a long time)
+ * Sigil / PageEdit (very recent)
  
  
 | Feature | Calibre Viewer | Lithium | Sigil | kobo | Kindle |
