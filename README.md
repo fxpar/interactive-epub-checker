@@ -29,7 +29,8 @@ Here are the interactions I have included in the book, mainly for teaching purpo
 ## footnotes
 
 ![Footnote in Shakespear's Romeo and Juliet's animated (in Calibre Viewer)](screenshots/play1.mp4.gif)
-![Footnote in Shakespear's Romeo and Juliet's prologue (in Calibre Viewer)](screenshots/footnoteEn1.png) ![Footnote in Shakespear's Romeo and Juliet's prologue (in Lithium Viewer)](screenshots/footnoteEn2.png)
+
+![Footnote in Shakespear's Romeo and Juliet's prologue (in Lithium Viewer)](screenshots/footnoteEn2.png)
 
 ### french play
 ![how footnotes appear in Lithium](screenshots/FootnoteLithium.png)![how footnotes appear in Calibre Viewer](screenshots/FootnoteCalibreViewer.png)
