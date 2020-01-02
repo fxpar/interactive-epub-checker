@@ -68,7 +68,7 @@ Click the button with language to see the text in this language appear / disappe
 
 ### Column
 
-![Show hide columns in bilingual texts (here Occam's Summa Logica)](https://github.com/fxpar/interactive-epub-checker/blob/master/veticalTranslation2.mp4.gif)
+![Show hide columns in bilingual: texts here Occam's Summa Logica](screenshots/veticalTranslation2.mp4.gif)
 
 
 
