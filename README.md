@@ -52,7 +52,8 @@ Various coding strategies can be used and are tested in this epub
  
 ### Using javascript and css Styles
 Click the button with language to see the text in this language appear / disappear.
-![Showing or hiding translation animated](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/showHideTranslation.mp4.gif)
+<img src="https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/showHideTranslation.mp4.gif" alt="alt text" width="" height="300px">
+
 ![Showing or hiding translation](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/lg.png)
 
 ### Using title attribute
