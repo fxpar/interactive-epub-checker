@@ -32,8 +32,6 @@ Here are the interactions I have included in the book, mainly for teaching purpo
 
 ![Footnote in Shakespear's Romeo and Juliet's prologue (in Lithium Viewer)](screenshots/footnoteEn2.png)
 
-### french play
-![how footnotes appear in Lithium](screenshots/FootnoteLithium.png)![how footnotes appear in Calibre Viewer](screenshots/FootnoteCalibreViewer.png)
 
 ## Quiz
 Quizzes can be achieved through various coding design:
