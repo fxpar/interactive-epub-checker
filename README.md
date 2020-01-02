@@ -39,8 +39,10 @@ Quizzes can be achieved through various coding design:
  * in Head link to Misc script.js
 ### Forms: Button and Style
 ![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/quiz.png)
+
 ### Forms: Fill the gap
-![Button](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/multiQuiz.png)
+<img src="https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/MultiQuiz2.mp4.gif" alt="alt text" width="" height="">
+
 
 ## Hide / Display
 Mainly used here to hide translations in multilingual ebooks, of for learning languages purposes.
