@@ -82,3 +82,9 @@ No library is included in this epub.
 ![ruby](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/ruby.png)
 (for zhuyin Fuhao / bopomofo)
 
+# Compatibility Matrix
+
+| Feature | Calibre Viewer | Lithium | Sigil |
+| ------------- | ------------- |------|-----|
+| Footnotes | yes  | yes | no |
+| Alerts  | no  |yes | no |
