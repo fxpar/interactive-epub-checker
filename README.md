@@ -83,8 +83,16 @@ No library is included in this epub.
 (for zhuyin Fuhao / bopomofo)
 
 # Compatibility Matrix
+ * kobo: aura HD
+ * Kindle: PaperWhite
+ * Sigil / PageEdit
+ 
+ 
+| Feature | Calibre Viewer | Lithium | Sigil | kobo | Kindle |
+| ------------- | ------------- | ------ | ----- | ---- | --- |
+| Footnotes | yes | yes | no | yes | yes |
+| Alerts  | no  | yes | no | no | no |
+| Hide text | yes | yes | no | no | no |
+| SVG | yes | yes | no | ? | ? |
+| mathml | no | no | no | ? | ? |
 
-| Feature | Calibre Viewer | Lithium | Sigil |
-| ------------- | ------------- |------|-----|
-| Footnotes | yes  | yes | no |
-| Alerts  | no  |yes | no |
