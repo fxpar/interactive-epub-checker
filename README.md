@@ -6,11 +6,13 @@
 
 
 # interactive epub checker
-Epub are great educative tools. Here is a [file](https://github.com/fxpar/interactive-epub-checker/blob/master/Test%20interactive%20Epub%20checker%20(epub3).epub?raw=true) to test a good deal of interactions with user:
-* **creating quiz**: 
+Epub are great educative tools. 
+Here are the interactions I have included in the book, mainly for teaching purposes:
+
+* **quiz**: 
   * hiding or displaying answer
-  * random question
   * checking if the answer is correct
+  * random question (todo)
 * **learning languages**: 
   * hiding or displaying translation
   * notes, examples
@@ -19,6 +21,7 @@ Epub are great educative tools. Here is a [file](https://github.com/fxpar/intera
  * Calibre viewer (windows) https://manual.calibre-ebook.com/viewer.html Free, included in calibre, available as portable
  * Lithium (android) https://play.google.com/store/apps/details?id=com.faultexception.reader Free (pay ugrade available, for more themes), No ads.
  * Study Comfort (android) https://play.google.com/store/apps/details?id=com.studycomfort.app Free, No Ads
+ * (would be happy to have feedback from Apple users)
  
 # Interactive Features
  
@@ -99,3 +102,13 @@ No library is included in this epub.
 | SVG | yes | yes | no | ? | ? |
 | mathml | yes | no | no | ? | ? |
 
+
+# ROADMAP
+
+- [x] Hide with getElementsByClassName
+- [x] Hide with querySelectorAll
+- [x] Hide with cssRules
+- [x] Alerts
+- [ ] Random quiz questions
+- [ ] Vertical (table) hide translation
+- [ ] Russian characters
