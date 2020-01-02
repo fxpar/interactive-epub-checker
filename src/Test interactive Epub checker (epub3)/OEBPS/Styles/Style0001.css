@@ -1,0 +1,55 @@
+[lang="bo"], [lang="zh-tw"] {
+    font-size: xx-large;
+}
+
+.english {
+    color: red;
+}
+
+.french {
+    color: blue;
+}
+
+[lang="zh-tw"] ruby {
+    ruby-position: inter-character;
+	ruby-align:center;
+    color: blue;
+}
+
+rt {
+    font-size: small;
+}
+
+.bopomofo .rt {-epub-writing-mode: vertical-rl;font-size: small;}
+.bopomofo .rb {clear:both;}
+
+
+.preview {
+    border: 1px solid grey;
+}
+
+.button {
+    font-weight: bold;
+}
+
+.button2 {
+background-color:#3f51b5;
+ margin:30px; 
+padding:20px; 
+color:white;
+}
+
+.cache /* Pour cacher les réponses */ {
+    display: none;
+}
+
+.spoiler /* Pour mettre en page les réponses à afficher */ {
+    max-height: 130px;
+    overflow: auto;
+    /* Ajout d'une scroll-bar si nécessaire */
+margin: 5px;
+    padding: 2px;
+    border: 2px solid #ccddff;
+    background-color: #ddeeff;
+    color: black;
+}

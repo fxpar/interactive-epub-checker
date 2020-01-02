@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Call to script</title>
+  <script src="../Misc/test.js" type="text/javascript">
+</script>
+  <link href="../Styles/Style0001.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+ <h1>Script from js file</h1>
+
+<h2 id="sigil_toc_id_6">Simple alert</h2>
+  <p onclick="montreToi();">Click Me too !</p>
+<h2 id="sigil_toc_id_7">Function to change the style of element</h2>
+<h3 id="sigil_toc_id_8">as links</h3>
+  <p><a href="#" onclick="changecss('.english','display','none')">click this link! no english</a></p>
+
+  <p><a href="#" onclick="changecss('.english','display','block')">click this link! english back</a></p>
+
+
+<h3 id="sigil_toc_id_9">as normal paragraph</h3>
+  <p onclick="changecss('.english','display','none')">hide English</p>
+
+  <p onclick="changecss('.english','display','block')">Display English</p>
+
+<h2 id="sigil_toc_id_10">Result</h2>
+
+  <p class="english">this is english</p>
+
+  <p class="french">Ceci est du français</p>
+</body>
+</html>

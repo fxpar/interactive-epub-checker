@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<link href="../Styles/Style0001.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1>queryselectorall</h1>
+Hopefully this will be used to hide / show text from bilingual texts.
+<span onclick="window.alert('start');">alert</span>
+<span class="button" onclick="window.alert(document.querySelectorAll('.english').length);document.querySelectorAll('.english').forEach(function(el) {alert('ok');    el.style.display = 'none';});">Cacher english</span>
+
+
+    <p class="english">this is english</p>
+    <p class="french">c'est en français</p>
+
+<p class="english">this is a book</p>
+    <p class="french">c'est un livre</p>
+
+<p class="english">this is a city</p>
+    <p class="french">c'est une ville</p>
+
+<p class="english">this is a chair</p>
+    <p class="french">c'est une chaise</p>
+</body>
+</html>

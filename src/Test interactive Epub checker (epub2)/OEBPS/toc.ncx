@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="urn:uuid:be853c97-1fa0-4066-88ba-04d679d4721e" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Test Footnote and interactivity FParlant v8</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint-1" playOrder="1">
+      <navLabel>
+        <text>Inline script footnotes In Head script External script Forms Jquery enrichis querySelectorAll InsertRule character check vertical japonese svg mathml</text>
+      </navLabel>
+      <content src="Text/content.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-2" playOrder="2">
+      <navLabel>
+        <text>noterefs</text>
+      </navLabel>
+      <content src="Text/noteref.xhtml"/>
+      <navPoint id="navPoint-3" playOrder="3">
+        <navLabel>
+          <text>NOTES:</text>
+        </navLabel>
+        <content src="Text/footnotes.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-4" playOrder="4">
+      <navLabel>
+        <text>Alerts</text>
+      </navLabel>
+      <content src="Text/InlineScript.xhtml"/>
+      <navPoint id="navPoint-5" playOrder="5">
+        <navLabel>
+          <text>Simple paragraph</text>
+        </navLabel>
+        <content src="Text/InlineScript.xhtml#sigil_toc_id_1"/>
+      </navPoint>
+      <navPoint id="navPoint-6" playOrder="6">
+        <navLabel>
+          <text>Alert via link</text>
+        </navLabel>
+        <content src="Text/InlineScript.xhtml#sigil_toc_id_2"/>
+      </navPoint>
+      <navPoint id="navPoint-7" playOrder="7">
+        <navLabel>
+          <text>Javascript change font weight and color</text>
+        </navLabel>
+        <content src="Text/InlineScript.xhtml#sigil_toc_id_3"/>
+      </navPoint>
+      <navPoint id="navPoint-8" playOrder="8">
+        <navLabel>
+          <text>alert via in head function script</text>
+        </navLabel>
+        <content src="Text/InHeadScript.xhtml"/>
+        <navPoint id="navPoint-9" playOrder="9">
+          <navLabel>
+            <text>simple paragraph</text>
+          </navLabel>
+          <content src="Text/InHeadScript.xhtml#sigil_toc_id_4"/>
+        </navPoint>
+        <navPoint id="navPoint-10" playOrder="10">
+          <navLabel>
+            <text>link</text>
+          </navLabel>
+          <content src="Text/InHeadScript.xhtml#sigil_toc_id_5"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-11" playOrder="11">
+      <navLabel>
+        <text>Script from js file</text>
+      </navLabel>
+      <content src="Text/CallMiscScripted.xhtml"/>
+      <navPoint id="navPoint-12" playOrder="12">
+        <navLabel>
+          <text>Simple alert</text>
+        </navLabel>
+        <content src="Text/CallMiscScripted.xhtml#sigil_toc_id_6"/>
+      </navPoint>
+      <navPoint id="navPoint-13" playOrder="13">
+        <navLabel>
+          <text>Function to change the style of element</text>
+        </navLabel>
+        <content src="Text/CallMiscScripted.xhtml#sigil_toc_id_7"/>
+        <navPoint id="navPoint-14" playOrder="14">
+          <navLabel>
+            <text>as links</text>
+          </navLabel>
+          <content src="Text/CallMiscScripted.xhtml#sigil_toc_id_8"/>
+        </navPoint>
+        <navPoint id="navPoint-15" playOrder="15">
+          <navLabel>
+            <text>as normal paragraph</text>
+          </navLabel>
+          <content src="Text/CallMiscScripted.xhtml#sigil_toc_id_9"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-16" playOrder="16">
+        <navLabel>
+          <text>Result</text>
+        </navLabel>
+        <content src="Text/CallMiscScripted.xhtml#sigil_toc_id_10"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-17" playOrder="17">
+      <navLabel>
+        <text>Forms</text>
+      </navLabel>
+      <content src="Text/Form.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-18" playOrder="18">
+      <navLabel>
+        <text>Test jquery inside epub</text>
+      </navLabel>
+      <content src="Text/Jquery.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-19" playOrder="19">
+      <navLabel>
+        <text>Tap Me too!</text>
+      </navLabel>
+      <content src="Text/Jquery.xhtml#sigil_toc_id_11"/>
+    </navPoint>
+    <navPoint id="navPoint-20" playOrder="20">
+      <navLabel>
+        <text>Interactive Quiz</text>
+      </navLabel>
+      <content src="Text/Enrichis.xhtml"/>
+      <navPoint id="navPoint-21" playOrder="21">
+        <navLabel>
+          <text>Partie1: Titre</text>
+        </navLabel>
+        <content src="Text/Enrichis.xhtml#sigil_toc_id_12"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-22" playOrder="22">
+      <navLabel>
+        <text>queryselectorall</text>
+      </navLabel>
+      <content src="Text/queryselectorall.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-23" playOrder="23">
+      <navLabel>
+        <text>insertrule</text>
+      </navLabel>
+      <content src="Text/insertrule.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-24" playOrder="24">
+      <navLabel>
+        <text>Characters and layout</text>
+      </navLabel>
+      <content src="Text/charactersCheck.xhtml"/>
+      <navPoint id="navPoint-25" playOrder="25">
+        <navLabel>
+          <text>Greek</text>
+        </navLabel>
+        <content src="Text/charactersCheck.xhtml#sigil_toc_id_13"/>
+      </navPoint>
+      <navPoint id="navPoint-26" playOrder="26">
+        <navLabel>
+          <text>Tibetan</text>
+        </navLabel>
+        <content src="Text/charactersCheck.xhtml#sigil_toc_id_14"/>
+      </navPoint>
+      <navPoint id="navPoint-27" playOrder="27">
+        <navLabel>
+          <text>Sanskrit</text>
+        </navLabel>
+        <content src="Text/charactersCheck.xhtml#sigil_toc_id_15"/>
+      </navPoint>
+      <navPoint id="navPoint-28" playOrder="28">
+        <navLabel>
+          <text>Zhuyin Bopomofo Chinese Taiwan</text>
+        </navLabel>
+        <content src="Text/charactersCheck.xhtml#sigil_toc_id_16"/>
+        <navPoint id="navPoint-29" playOrder="29">
+          <navLabel>
+            <text>Ruby</text>
+          </navLabel>
+          <content src="Text/charactersCheck.xhtml#sigil_toc_id_17"/>
+        </navPoint>
+        <navPoint id="navPoint-30" playOrder="30">
+          <navLabel>
+            <text>Ruby inter-character workaround</text>
+          </navLabel>
+          <content src="Text/charactersCheck.xhtml#sigil_toc_id_18"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint-31" playOrder="31">
+        <navLabel>
+          <text>Simplified Chinese</text>
+        </navLabel>
+        <content src="Text/charactersCheck.xhtml#sigil_toc_id_19"/>
+      </navPoint>
+      <navPoint id="navPoint-32" playOrder="32">
+        <navLabel>
+          <text>Traditional Chinese</text>
+        </navLabel>
+        <content src="Text/charactersCheck.xhtml#sigil_toc_id_20"/>
+      </navPoint>
+      <navPoint id="navPoint-33" playOrder="33">
+        <navLabel>
+          <text>一</text>
+        </navLabel>
+        <content src="Text/verticalJap.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint-34" playOrder="34">
+      <navLabel>
+        <text>svg</text>
+      </navLabel>
+      <content src="Text/svg.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint-35" playOrder="35">
+      <navLabel>
+        <text>Mathml equation</text>
+      </navLabel>
+      <content src="Text/mathml.xhtml"/>
+      <navPoint id="navPoint-36" playOrder="36">
+        <navLabel>
+          <text>Result</text>
+        </navLabel>
+        <content src="Text/mathml.xhtml#sigil_toc_id_21"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>inline scripts</title>
+</head>
+
+<body>
+<h1>Alerts</h1>
+<h2 id="sigil_toc_id_19">Simple paragraph</h2>
+<p>The next paragraph is clickable and should display "hello"</p>
+  <p onclick="alert('hello');">Click this paragraph!</p>
+
+<h2 id="sigil_toc_id_20">Alert via link</h2>
+<p>The paragraph below does the same, but it is a LINK</p>
+  <p><a href="../../C%3A/Users/fxp33/Documents/epub/_en%20cours%20%C3%A9dition/_testJS/Test%20interactive%20Epub%20checker%20-%20Copie%20%283%29/OEBPS/Text/InlineScript.xhtml#" onclick="alert('hello');">click this link!</a></p>
+<h2 id="sigil_toc_id_21">Javascript change font weight and color</h2>
+
+  <p onclick="var el = document.getElementById('myfr'); el.style.fontWeight = 'bold'; el.style.color = 'red'; el.style.fontSize = '150%'">Click to put the french paragraph in bold</p>
+
+  <div style="border:1px solid black">
+    <p class="english">this is english</p>
+
+    <p class="french" id="myfr">Ceci est du français</p>
+  </div>
+</body>
+</html>

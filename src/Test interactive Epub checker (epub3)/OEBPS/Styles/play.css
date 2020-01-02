@@ -1,0 +1,25 @@
+section {
+	font-family: serif;
+	margin-left:20px;
+}
+.TITLE {
+font-weight:bold;
+font-size:xx-large;
+}
+.LINE {
+	margin:0;
+	font-size:large;
+}
+.SPEAKER {
+	margin-left:-30px;
+margin-bottom:5px;
+	font-size:x-small;
+}
+
+.PGROUP {border-left:1px solid grey; padding-left:5px; margin-left:-5px}
+
+.STAGEDIR {text-align:center;font-style: italic; }
+a {
+vertical-align: super;
+  font-size: smaller;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>en</dc:language>
+    <dc:title>Interactive epub checker</dc:title>
+    <dc:creator id="cre">Fxp</dc:creator>
+    <meta refines="#cre" property="role" scheme="marc:relators">aut</meta>
+    <meta property="dcterms:modified">2020-01-02T01:29:09Z</meta>
+    <dc:identifier id="BookId">urn:uuid:5ccf5699-50a8-446e-ba6c-921c9aea9326</dc:identifier>
+    <meta content="1.0.0" name="Sigil version" />
+  </metadata>
+  <manifest>
+    <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="Style0001.css" href="Styles/Style0001.css" media-type="text/css"/>
+    <item id="showHideTranslation.xhtml" href="Text/showHideTranslation.xhtml" media-type="application/xhtml+xml"/>
+    <item id="screen_20191228_150506.png" href="Images/screen_20191228_150506.png" media-type="image/png"/>
+    <item id="charactersCheck.xhtml" href="Text/charactersCheck.xhtml" media-type="application/xhtml+xml"/>
+    <item id="quizInHeadScript.xhtml" href="Text/quizInHeadScript.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnotes.xhtml" href="Text/footnotes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="FormMultiQuiz.xhtml" href="Text/FormMultiQuiz.xhtml" media-type="application/xhtml+xml"/>
+    <item id="InlineScript.xhtml" href="Text/InlineScript.xhtml" media-type="application/xhtml+xml"/>
+    <item id="insertruleLoop.xhtml" href="Text/insertruleLoop.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Jquery.xhtml" href="Text/Jquery.xhtml" media-type="application/xhtml+xml"/>
+    <item id="screen_20191229_010443.png" href="Images/screen_20191229_010443.png" media-type="image/png"/>
+    <item id="mathml.xhtml" href="Text/mathml.xhtml" media-type="application/xhtml+xml"/>
+    <item id="noteref.xhtml" href="Text/noteref.xhtml" media-type="application/xhtml+xml"/>
+    <item id="queryselectorall.xhtml" href="Text/queryselectorall.xhtml" media-type="application/xhtml+xml"/>
+    <item id="planets.gif" href="Images/planets.gif" media-type="image/gif"/>
+    <item id="imageMap.xhtml" href="Text/imageMap.xhtml" media-type="application/xhtml+xml"/>
+    <item id="svg.xhtml" href="Text/svg.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ShowTranslationTitle.xhtml" href="Text/ShowTranslationTitle.xhtml" media-type="application/xhtml+xml"/>
+    <item id="verticalJap.css" href="Styles/verticalJap.css" media-type="text/css"/>
+    <item id="verticalJap.xhtml" href="Text/verticalJap.xhtml" media-type="application/xhtml+xml"/>
+    <item id="jquery-1.6.2.min.js" href="Misc/jquery-1.6.2.min.js" media-type="application/javascript"/>
+    <item id="test.js" href="Misc/test.js" media-type="application/javascript"/>
+    <item id="showHideTranslationInHead.xhtml" href="Text/showHideTranslationInHead.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnotePlay.xhtml" href="Text/footnotePlay.xhtml" media-type="application/xhtml+xml"/>
+    <item id="play.css" href="Styles/play.css" media-type="text/css"/>
+    <item id="PlayFootnotes.xhtml" href="Text/PlayFootnotes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="showHideTranslationGetElements.xhtml" href="Text/showHideTranslationGetElements.xhtml" media-type="application/xhtml+xml"/>
+    <item id="showHideTransQuerySelector.xhtml" href="Text/showHideTransQuerySelector.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine>
+    <itemref idref="Section0001.xhtml"/>
+    <itemref idref="nav.xhtml" linear="no"/>
+    <itemref idref="footnotePlay.xhtml"/>
+    <itemref idref="PlayFootnotes.xhtml"/>
+    <itemref idref="quizInHeadScript.xhtml"/>
+    <itemref idref="FormMultiQuiz.xhtml"/>
+    <itemref idref="showHideTranslation.xhtml"/>
+    <itemref idref="showHideTranslationInHead.xhtml"/>
+    <itemref idref="showHideTranslationGetElements.xhtml"/>
+    <itemref idref="showHideTransQuerySelector.xhtml"/>
+    <itemref idref="ShowTranslationTitle.xhtml"/>
+    <itemref idref="imageMap.xhtml"/>
+    <itemref idref="svg.xhtml"/>
+    <itemref idref="mathml.xhtml"/>
+    <itemref idref="charactersCheck.xhtml"/>
+    <itemref idref="verticalJap.xhtml"/>
+    <itemref idref="InlineScript.xhtml"/>
+    <itemref idref="insertruleLoop.xhtml"/>
+    <itemref idref="Jquery.xhtml"/>
+    <itemref idref="queryselectorall.xhtml"/>
+    <itemref idref="noteref.xhtml"/>
+    <itemref idref="footnotes.xhtml"/>
+  </spine>
+</package>

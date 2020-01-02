@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title></title>
+<link href="../Styles/Style0001.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1>insertrule</h1>
+Also a way to quickly hide translations from a bilingual or parallel text.
+<span onclick="alert('1');alert(this.sheet.cssRules.length);">Click here to check if epub reader accepts double alerts.</span>
+<br/>
+<span onclick="alert(this.sheet);var styleEl = document.createElement('style');document.head.appendChild(styleEl); styleEl.sheet.insertRule('.english { color: yellow }', styleEl.sheet.cssRules.length);alert(styleEl.sheet.cssRules.length); ">click: nb of sheet, english in yellow</span>
+<span class="button" onclick="document.querySelectorAll('#english').forEach(function(el) {    el.style.display = 'none';});">hide english</span>
+<span class="button" onclick="document.querySelectorAll('#english').forEach(function(el) {    el.style.display = 'block';});">show english</span>
+
+    <p class="english">this is english</p>
+    <p class="french">c'est en français</p>
+
+<p class="english">this is a book</p>
+    <p class="french">c'est un livre</p>
+
+<p class="english">this is a city</p>
+    <p class="french">c'est une ville</p>
+
+<p class="english">this is a chair</p>
+    <p class="french">c'est une chaise</p>
+</body>
+</html>

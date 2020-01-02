@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title></title>
+  <script type="application/javascript">
+
+  //
+
+  function showHide(div, button)
+  /*
+  Cette fonction permet successivement d'afficher et
+  de masquer un
+  paragraphe donné.
+  Elle est appelée lorsque l'utilisateur clique sur u
+  n bouton présent
+  dans le corps de la page HTML.
+  Elle a donc 2 arguments :
+  - div (le paragraphe à traiter) ;
+  - button (le bouton sur lequel l'utilisateur a cliq
+  ué).
+  */
+  {
+  if(div.className =='cache') // Si le paragraphe est caché
+  {
+  div.className ='spoiler';  // On le montre
+  button.value ='View answer';  // Et le bouton affiche  désormais "Masquer la réponse"
+  }
+  else  // Si le paragraphe est visible, on fait l'opération inverse
+  {
+  div.className ='cache';
+  button.value ='Paris';
+  }
+  } 
+  //
+  </script>
+<link href="../Styles/Style0001.css" type="text/css" rel="stylesheet"/>
+</head>
+
+<body>
+  <h1><span id="part1">What is the capital of France?</span></h1>
+<!-- La balise span sert d'ancre pour l'insertion,
+à la fin de chaque chapitre du livre, d'un lien vers la partie du quizz directement concernée: <a href="quizz.xhtml#partx">Lien</a>. -->
+
+  <form>
+    <!-- Bouton réalisant l'exécution de la fonction sh
+owHide
+(afficher/masquer la réponse) avec pour arguments d
+'entrée : la réponse
+dont id="answerx" et ce bouton. -->
+    
+  
+
+  <div class="cache" id="answer1">
+    <!-- By default the answer has a style hidden and the button shows "display the answer" -->
+    It starts with letter <b>P</b><br/>
+  </div>
+<input onclick="showHide(document.getElementById('answer1'), this)" type="button" value="Show a hint..." id="myInput"/></form>
+</body>
+</html>

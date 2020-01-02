@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script language="text/javascript"></script>
+
+<title>Baudelaire</title>
+<script type="text/javascript">
+
+
+function changecss3(myclass) {
+	var els = document.getElementsByClassName(myclass);
+
+	Array.prototype.forEach.call(els, function(el) {
+    // Do stuff here
+		if (el.style.display == "none"){
+			el.style.display = "block";
+		}else{
+			el.style.display = "none";
+		}
+    console.log(el.innerText);
+
+
+// Or
+//[].forEach.call(els, function (el) {...});	
+});
+}
+
+</script>
+<link href="../Styles/Style0001.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h4>javascript getelementsbyclassname loop</h4>
+
+
+
+<h2 class="title-h2" id="sigil_toc_id_2"><span class="french">L'horloge</span> <span class="english">The clock</span></h2>
+		  
+<div class="french">Horloge ! dieu sinistre, effrayant, impassible,</div>
+<div class="english">Ye clock! Sinister, frightful, stone-faced god</div>
+<div class="french">Dont le doigt nous menace et nous dit : <em>" Souviens-toi !</em></div>
+<div class="english">whose hand threatens us and says <em>"Remember!</em></div>
+<div class="french">Les vibrantes Douleurs dans ton coeur plein d'effroi</div>
+<div class="english">Vibrating pains will soon pierce</div>
+<div class="french">Se planteront bientôt comme dans une cible,</div>
+<div class="english">your heart like a bulls-eye,</div>
+<div>&#160;</div>
+<div>
+<em>Charles Baudelaire</em></div>
+<div>&#160;</div>
+<div>&#160;</div>
+<div>&#160;</div>
+<em style="font-size:small">buttons as links</em>
+<h3 style="text-align: right;" id="sigil_toc_id_1"><a class="button2" onclick="changecss3('english')">english</a> <a class="button2" onclick="changecss3('french')">french</a></h3>
+<br/>
+<em style="font-size:small">buttons as spans</em>
+<h3 style="text-align: right;" id="sigil_toc_id_1"><span class="button2" onclick="changecss3('english')">english</span> <span class="button2" onclick="changecss3('french')">french</span></h3>
+</body>
+</html>

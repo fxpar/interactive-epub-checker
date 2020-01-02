@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:title>Test Footnote and interactivity FParlant v8</dc:title>
+    <dc:creator opf:file-as="Test Javascript" opf:role="aut">Fxp33</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:date opf:event="modification">2020-01-01</dc:date>
+    <meta content="0.9.10" name="Sigil version" />
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:be853c97-1fa0-4066-88ba-04d679d4721e</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="InlineScript.xhtml" href="Text/InlineScript.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="CallMiscScripted.xhtml" href="Text/CallMiscScripted.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="InHeadScript.xhtml" href="Text/InHeadScript.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+    <item id="test.js" href="Misc/test.js" media-type="text/javascript"/>
+    <item id="content.xhtml" href="Text/content.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Style0001.css" href="Styles/Style0001.css" media-type="text/css"/>
+    <item id="Form.xhtml" href="Text/Form.xhtml" media-type="application/xhtml+xml"/>
+    <item id="jquery-1.6.2.min.js" href="Misc/jquery-1.6.2.min.js" media-type="text/plain"/>
+    <item id="Jquery.xhtml" href="Text/Jquery.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Enrichis.xhtml" href="Text/Enrichis.xhtml" media-type="application/xhtml+xml"/>
+    <item id="queryselectorall.xhtml" href="Text/queryselectorall.xhtml" media-type="application/xhtml+xml"/>
+    <item id="insertrule.xhtml" href="Text/insertrule.xhtml" media-type="application/xhtml+xml"/>
+    <item id="charactersCheck.xhtml" href="Text/charactersCheck.xhtml" media-type="application/xhtml+xml"/>
+    <item id="screen_20191228_150506.png" href="Images/screen_20191228_150506.png" media-type="image/png"/>
+    <item id="verticalJap.xhtml" href="Text/verticalJap.xhtml" media-type="application/xhtml+xml"/>
+    <item id="verticalJap.css" href="Styles/verticalJap.css" media-type="text/css"/>
+    <item id="screen_20191228_151837.png" href="Images/screen_20191228_151837.png" media-type="image/png"/>
+    <item id="svg.xhtml" href="Text/svg.xhtml" media-type="application/xhtml+xml"/>
+    <item id="noteref.xhtml" href="Text/noteref.xhtml" media-type="application/xhtml+xml"/>
+    <item id="footnotes.xhtml" href="Text/footnotes.xhtml" media-type="application/xhtml+xml"/>
+    <item id="mathml.xhtml" href="Text/mathml.xhtml" media-type="application/xhtml+xml"/>
+    <item id="screen_20191229_010443.png" href="Images/screen_20191229_010443.png" media-type="image/png"/>
+    <item id="imageMap.xhtml" href="Text/imageMap.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0002.xhtml" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="planets.gif" href="Images/planets.gif" media-type="image/gif"/>
+    <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
+    <item id="baudelaire.xhtml" href="Text/baudelaire.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Title.xhtml" href="Text/Title.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="content.xhtml"/>
+    <itemref idref="noteref.xhtml"/>
+    <itemref idref="footnotes.xhtml"/>
+    <itemref idref="InlineScript.xhtml"/>
+    <itemref idref="InHeadScript.xhtml"/>
+    <itemref idref="CallMiscScripted.xhtml"/>
+    <itemref idref="baudelaire.xhtml"/>
+    <itemref idref="Title.xhtml"/>
+    <itemref idref="Form.xhtml"/>
+    <itemref idref="Section0001.xhtml"/>
+    <itemref idref="Jquery.xhtml"/>
+    <itemref idref="Enrichis.xhtml"/>
+    <itemref idref="queryselectorall.xhtml"/>
+    <itemref idref="insertrule.xhtml"/>
+    <itemref idref="charactersCheck.xhtml"/>
+    <itemref idref="verticalJap.xhtml"/>
+    <itemref idref="svg.xhtml"/>
+    <itemref idref="mathml.xhtml"/>
+    <itemref idref="imageMap.xhtml"/>
+    <itemref idref="Section0002.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="foreword" title="Foreword" href="Text/content.xhtml"/>
+    <reference type="toc" title="Table of Contents" href="Text/InlineScript.xhtml"/>
+    <reference type="text" title="Text" href="Text/InlineScript.xhtml"/>
+  </guide>
+</package>

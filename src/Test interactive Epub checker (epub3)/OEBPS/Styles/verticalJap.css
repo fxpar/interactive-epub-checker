@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+
+
+html
+{
+    -epub-writing-mode: vertical-rl;
+    font-size: 14pt;
+    margin: auto 1em;
+    padding: 1em 0;
+    max-height: 28em;
+    background-color: #fff4e7;
+}
+
+span.tcy
+{
+    /*writing-mode: horizontal-tb;
+    -webkit-writing-mode: horizontal-tb;*/
+    -epub-text-combine: horizontal;
+    /* --- for test
+    -epub-text-emphasis-style: sesame;
+    -epub-text-emphasis-color: red; -- */   
+}
+span.tcy.blue
+{
+    color: #0000FF;
+}
