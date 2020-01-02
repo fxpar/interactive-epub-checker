@@ -27,8 +27,15 @@ Here are the interactions I have included in the book, mainly for teaching purpo
  
 
 ## footnotes
-
+ * simple footnote
+ * with styling (bold, italic, underline)
+ * with image
+ 
 ![Footnote in Shakespear's Romeo and Juliet's animated (in Calibre Viewer)](screenshots/play1a.mp4.gif)
+
+### footnote with quiz
+* displays question
+* indicates the correct answer
 
 ![Footnote in Shakespear's Romeo and Juliet's animated (in Lithium Viewer)](screenshots/play2.mp4.gif)
 
