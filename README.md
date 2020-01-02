@@ -63,7 +63,13 @@ Various coding strategies can be used and are tested in this epub
 ### Using javascript and css Styles
 Click the button with language to see the text in this language appear / disappear.
 
+#### Lines
 <img src="https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/showHideTranslation.mp4.gif" alt="alt text" width="" height="600px">
+
+### Column
+
+![Show hide columns in bilingual texts (here Occam's Summa Logica)](https://github.com/fxpar/interactive-epub-checker/blob/master/veticalTranslation2.mp4.gif)
+
 
 
 ### Using title attribute
@@ -121,5 +127,5 @@ No library is included in this epub.
 - [x] Hide with cssRules
 - [x] Alerts
 - [ ] Random quiz questions
-- [ ] Vertical (table) hide translation
+- [x] Vertical (table) hide translation
 - [ ] Russian characters
