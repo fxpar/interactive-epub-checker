@@ -94,5 +94,5 @@ No library is included in this epub.
 | Alerts  | no  | yes | no | no | no |
 | Hide text | yes | yes | no | no | no |
 | SVG | yes | yes | no | ? | ? |
-| mathml | no | no | no | ? | ? |
+| mathml | yes | no | no | ? | ? |
 
