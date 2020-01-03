@@ -4,10 +4,10 @@
     <dc:language>en</dc:language>
     <dc:title>Interactive epub checker</dc:title>
     <dc:creator id="cre">Fxp</dc:creator>
-    <meta refines="#cre" property="role" scheme="marc:relators">aut</meta>
-    <meta property="dcterms:modified">2020-01-02T01:29:09Z</meta>
+    <meta scheme="marc:relators" refines="#cre" property="role">aut</meta>
+    <meta property="dcterms:modified">2020-01-02T17:09:12Z</meta>
     <dc:identifier id="BookId">urn:uuid:5ccf5699-50a8-446e-ba6c-921c9aea9326</dc:identifier>
-    <meta content="1.0.0" name="Sigil version" />
+    <meta name="Sigil version" content="0.9.10" />
   </metadata>
   <manifest>
     <item id="Section0001.xhtml" href="Text/Section0001.xhtml" media-type="application/xhtml+xml"/>
@@ -41,16 +41,24 @@
     <item id="PlayFootnotes.xhtml" href="Text/PlayFootnotes.xhtml" media-type="application/xhtml+xml"/>
     <item id="showHideTranslationGetElements.xhtml" href="Text/showHideTranslationGetElements.xhtml" media-type="application/xhtml+xml"/>
     <item id="showHideTransQuerySelector.xhtml" href="Text/showHideTransQuerySelector.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Shakespeare.png" href="Images/Shakespeare.png" media-type="image/png"/>
+    <item id="playCover.xhtml" href="Text/playCover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="Section0002.xhtml" href="Text/Section0002.xhtml" media-type="application/xhtml+xml"/>
+    <item id="showHideTranslationVertical.xhtml" href="Text/showHideTranslationVertical.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
   </manifest>
-  <spine>
+  <spine toc="ncx">
     <itemref idref="Section0001.xhtml"/>
     <itemref idref="nav.xhtml" linear="no"/>
+    <itemref idref="playCover.xhtml"/>
     <itemref idref="footnotePlay.xhtml"/>
+    <itemref idref="Section0002.xhtml"/>
     <itemref idref="PlayFootnotes.xhtml"/>
     <itemref idref="quizInHeadScript.xhtml"/>
     <itemref idref="FormMultiQuiz.xhtml"/>
     <itemref idref="showHideTranslation.xhtml"/>
     <itemref idref="showHideTranslationInHead.xhtml"/>
+    <itemref idref="showHideTranslationVertical.xhtml"/>
     <itemref idref="showHideTranslationGetElements.xhtml"/>
     <itemref idref="showHideTransQuerySelector.xhtml"/>
     <itemref idref="ShowTranslationTitle.xhtml"/>

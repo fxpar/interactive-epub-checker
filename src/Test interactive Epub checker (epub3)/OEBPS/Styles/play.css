@@ -1,6 +1,6 @@
 section {
 	font-family: serif;
-	margin-left:20px;
+	margin-left:40px;
 }
 .TITLE {
 font-weight:bold;
@@ -23,3 +23,12 @@ a {
 vertical-align: super;
   font-size: smaller;
 }
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+

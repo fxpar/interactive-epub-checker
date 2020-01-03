@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<head>
+  <title>Summa Logica Show/hide</title>
+<script src="../Misc/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+ function hideColumn(nb){
+	$("td:nth-child("+nb+")").toggle();
+	$("th:nth-child("+nb+")").toggle();
+}
+</script>
+</head>
+
+<body>
+<h1>Summa Logica</h1>
+<h3>William of Occam</h3>
+<input type="button" onclick="hideColumn('1');" style="background:#9C27B0; color:white;" value="show / hide LATIN"/>
+<input type="button" onclick="hideColumn('2');" style="background:#9C27B0; color:white;" value="show / hide ENGLISH"/>
+<br/><br/>
+  <table border="1" cellpadding="10" span="2">
+    <colgroup>
+      <col valign="top" width="46%"/>
+
+      <col valign="top" width="54%"/>
+    </colgroup>
+
+    <thead>
+      <tr>
+        <th>
+          Latin
+        </th>
+
+        <th>
+          English
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>
+          <b>Pars I CAP. 1. DE DEFINITIONE TERMINI ET EIUS DIVISIONE IN GENERALI</b>
+        </td>
+	   <td>
+<b>Chapter 1. Of the definition of the term, and of its division in general.</b>
+</td>
+      </tr>
+
+      <tr>
+        <td>
+          (i) Omnes logicae tractatores intendunt astruere quod argumenta ex propositionibus et propositiones ex terminis componuntur. Unde terminus aliud non est quam pars propinqua propositionis. Definiens enim terminum Aristoteles, I Priorum, dicit: "Terminum voco in quem resolvitur propositio, ut praedicatum et de quo praedicatur, vel apposito vel diviso esse vel non esse".
+        </td>
+
+        <td>
+          All those who deal with logic mean to show that arguments are composed from propositions and propositions out of terms. Therefore, a term is nothing other than a neighbouring part of a proposition. For in defining a term Aristotle (<i>Prior Analytics</i> I) says 'I call a 'term', that into which a proposition is analysed, such as a predicate and what it is predicated of, either by putting together to say what is the case (esse), or by separating, to say what is not the case'.
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          (ii) Sed quamvis omnis terminus pars sit propositionis, vel esse possit, non omnes termini tamen eiusdem sunt naturae; et ideo ad perfectam notitiam terminorum habendam oportet aliquas divisiones terminorum praecognoscere.
+        </td>
+
+        <td>
+          But although every term is, or could be, part of a proposition, yet not all terms are of the same nature, and for that reason, in order to have a complete acquaintance with terms, we must gain a preliminary acquaintance with some of the divisions of terms.
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          (iii) Est autem sciendum quod sicut secundum Boethium, in I Perihermenias, triplex est oratio, scilicet scripta, prolata et concepta, tantum habens esse in intellectu, sic triplex est terminus, scilicet scriptus, prolatus et conceptus.
+        </td>
+
+        <td>
+          Now it should be known that, according to Boethius on <i><a href="http://www.logicmuseum.com/authors/boethius/boethiusperihermeniascommentary-1.htm">On Interpretation</a></i> I, just as discourse is threefold, namely, written, spoken and conceived ([the last] only having being in the understanding) so the term is threefold, namely, written, spoken and conceived.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
