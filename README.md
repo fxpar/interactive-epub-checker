@@ -22,6 +22,7 @@ Here are the interactions I have included in the book, mainly for teaching purpo
  * Lithium (android) https://play.google.com/store/apps/details?id=com.faultexception.reader Free (pay ugrade available, for more themes), No ads.
  * Study Comfort (android) https://play.google.com/store/apps/details?id=com.studycomfort.app Free, No Ads
  * (would be happy to have feedback from Apple users)
+ * Gitden (seems free and no ads) https://play.google.com/store/apps/details?id=com.gitden.epub.reader.app&hl=en works as tested by [pleabargain](https://github.com/pleabargain) and demonstrated in this video https://www.youtube.com/watch?v=9Qxd5m8HmgY&feature=youtu.be 
  
 # Interactive Features
  
@@ -95,10 +96,12 @@ No library is included in this epub.
 ### Compatible tools
  * Calibre viewer (windows)
  * [Lea Reader](https://play.google.com/store/apps/details?id=com.adilibre.leareader) (android)
+ * [Gitden] (https://play.google.com/store/apps/details?id=com.gitden.epub.reader.app) (android)
 
 ![mathml in epub](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/mathml.png)
 
 ## vertical japanese
+Including Furigana (small pronunciation hints aside Chinese characters)
 ![vertical japanese](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/verticalJapanese.png)
 
 ## Ruby 
@@ -111,13 +114,14 @@ No library is included in this epub.
  * Sigil / PageEdit (very recent)
  
  
-| Feature | Calibre Viewer | Lithium | Sigil | kobo | Kindle |
-| ------------- | ------------- | ------ | ----- | ---- | --- |
-| Footnotes | yes | yes | no | yes | yes |
-| Alerts  | no  | yes | no | no | no |
-| Hide text | yes | yes | no | no | no |
-| SVG | yes | yes | no | ? | ? |
-| mathml | yes | no | no | ? | ? |
+| Feature | Calibre Viewer | Lithium | Sigil | kobo | Kindle | Gitden |
+| ------------- | ------------- | ------ | ----- | ---- | --- |-----|
+| Footnotes | yes | yes | no | yes | yes | yes |
+| Alerts  | no  | yes | no | no | no | yes |
+| Hide text | yes | yes | no | no | no | yes |
+| SVG | yes | yes | no | ? | ? | yes |
+| mathml | yes | no | no | ? | ? | yes |
+| jquery | yes | ? | ? | ? | ? | no | yes |
 
 
 # ROADMAP
