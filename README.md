@@ -1,21 +1,35 @@
- On this page you will simply find an epub book to let you easily test if your viewer accepts interactions. (epub is a format of electronic book, which includes fonts, images, videos... You must have a specific software to open it.)
- 
-
-[Download the epub](https://github.com/fxpar/interactive-epub-checker/blob/master/Test%20interactive%20Epub%20checker%20(epub3).epub?raw=true) to check some interactive contents on your reader.
-
-
-
 # interactive epub checker
-Epub are great educative tools. 
-Here are the interactions I have included in the book, mainly for teaching purposes:
+Epub are great educative tools. With this ebook you can test what your reading software accepts.
 
+This ebook (epub) contains a lot of different interactive features. 
+
+
+* **footnotes**
+* simple footnotes
+* footnotes with images
 * **quiz**: 
   * hiding or displaying answer
   * checking if the answer is correct
   * random question (todo)
 * **learning languages**: 
   * hiding or displaying translation
-  * notes, examples
+* **Styles changes**
+  * text in lines
+  * text in columns
+  * vertical japanese
+* **formats**
+  * svg images
+  * mathml
+  * ruby pronunciation above characters
+ 
+
+[Download the epub](https://github.com/fxpar/interactive-epub-checker/blob/master/Test%20interactive%20Epub%20checker%20(epub3).epub?raw=true) to check some interactive contents on your reader.
+
+
+
+
+
+
 
 # Compatible readers (or partially compatible)
  * Calibre viewer (windows) https://manual.calibre-ebook.com/viewer.html Free, included in calibre, available as portable
