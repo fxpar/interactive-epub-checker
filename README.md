@@ -10,6 +10,7 @@ This ebook (epub) contains a lot of different interactive features.
 * **quiz**: 
   * hiding or displaying answer
   * checking if the answer is correct
+  * click specific image areas
   * random question (todo)
 * **learning languages**: 
   * hiding or displaying translation
