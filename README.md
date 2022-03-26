@@ -5,8 +5,8 @@ This ebook (epub) contains a lot of different interactive features.
 
 
 * **footnotes**
-* simple footnotes
-* footnotes with images
+  * simple footnotes
+  * footnotes with images
 * **quiz**: 
   * hiding or displaying answer
   * checking if the answer is correct
