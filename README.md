@@ -117,10 +117,12 @@ No library is included in this epub.
 
 ## vertical japanese
 Including Furigana (small pronunciation hints aside Chinese characters)
+
 ![vertical japanese](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/verticalJapanese.png)
 
 ## Ruby 
 ![ruby](https://github.com/fxpar/interactive-epub-checker/blob/master/screenshots/ruby.png)
+
 (for zhuyin Fuhao / bopomofo)
 
 # Compatibility Matrix
